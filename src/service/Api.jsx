@@ -17,7 +17,7 @@ const getDifficulty = () => {
     return get(`${API_BASE_URL}/api/difficulty`)
 }
 
-const getQuestions = (difficulty = 'easy') => {
+const getQuestions = (difficulty) => {
     return get(`${API_BASE_URL}/api/questions?difficulty=${difficulty}`);
 };
 

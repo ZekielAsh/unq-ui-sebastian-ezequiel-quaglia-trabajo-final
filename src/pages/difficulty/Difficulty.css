@@ -1,0 +1,36 @@
+.difficulty-container {
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+  }
+
+.list{
+  width: 348px;
+  padding: 0px;
+  gap: 230px;
+  border-radius: 8px;
+  opacity: 0px;
+  display: flex;
+  justify-content: baseline;
+  flex-direction: row;
+}
+
+.buttonDifficulty{
+    padding: 20px 70px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #6338ff;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: #5713AA 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}  
+
+
+.buttonDifficulty:hover {
+    box-shadow: rgb(19, 4, 73) 0px 7px 0px 0px;
+  }

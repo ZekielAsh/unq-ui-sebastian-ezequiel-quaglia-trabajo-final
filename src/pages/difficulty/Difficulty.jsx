@@ -4,7 +4,7 @@ import Api from "../../service/Api";
 import "./Difficulty.css";
 
 const Difficulty = () => {
-    const [selected, setSelected] = useState("easy");
+    const [selected, setSelected] = useState([]);
     const navigate = useNavigate();
 
     
@@ -21,13 +21,15 @@ const Difficulty = () => {
     }, []);
 
     const handleDifficultyChange = (mode) => {
-        navigate("/Question", { state: { difficulty: mode } });
+        navigate("/question", { state: { difficulty: mode } });
     }
 
     return (
         <div>
             <div className="difficulty-container">
-                <h1>Elegir dificultad</h1>
+                <div className='title'>
+                    <h1>Elegir Dificultad</h1>
+                </div>
             </div>
             <div className="list">
                 { selected?.map((mode) => (
