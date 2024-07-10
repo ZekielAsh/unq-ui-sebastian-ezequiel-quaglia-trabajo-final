@@ -5,8 +5,8 @@ const Home = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="home">
-            <button onClick={() => navigate('/difficulty')}>New Game</button>
+        <div className="home-container">
+            <button onClick={() => navigate('/difficulty')}>Empezar</button>
         </div>
     );
 }
