@@ -1,8 +1,8 @@
-# React + Vite
+# Preguntados!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Previo a la ejecución
+Antes de ejecutar este proyecto se debe tener instalado la última versión de Node.js. Una vez hecho esto, correr el comando `npm i` para instalar todas las dependencias. 
 
-Currently, two official plugins are available:
+## Jugar Preguntados!
+Para correr el proyecto, utiliza el comando `npm run dev`. Si todo fue ejecutado con exito, en la consola estara presente la dirección donde se encuentra el juego, por ejemplo: `http://localhost:5173/`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
