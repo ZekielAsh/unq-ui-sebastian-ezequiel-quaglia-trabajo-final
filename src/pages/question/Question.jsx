@@ -26,10 +26,9 @@ const Question = () => {
     }, []);
 
     const handleAnswer = async (answer) => {
-        console.log("Answer received:", answer);
         const questId = {
             questionId: questionList[counter].id, 
-            ret: answer
+            option: answer
         };
         try {
             const response = await Api.postAnswer(questId);
@@ -44,10 +43,10 @@ const Question = () => {
         }
     };
 
-    if (!questionList.length) { return <div>Cargando...</div>; };
+    if (!questionList.length) { return <div>Cargando...</div> };
 
     if (counter >= questionList.length) { 
-        navigate("/results", { state: { answers } });
+        navigate("/results", { state: { answers, counter } });
     }
 
     return (
@@ -62,6 +61,6 @@ const Question = () => {
             </div>
         </div>
     );
-}
+};
 
 export default Question;

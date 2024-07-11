@@ -7,7 +7,7 @@ body, h1 {
 body {
   background: url('src/assets/preguntados-netflix-trivia-quest.png') no-repeat center center fixed;
   background-size: cover;
-  color: #f51919;
+  color: #ffffff;
 }
 h1 {
   font-size: 2.5rem;

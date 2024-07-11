@@ -4,7 +4,6 @@ import './Answer.css';
 const Answer = ({ answers, whenAnswer }) => {
 
     const handleClick = (option) => {
-        console.log("Option clicked:", option);
         whenAnswer(option);
     };
 

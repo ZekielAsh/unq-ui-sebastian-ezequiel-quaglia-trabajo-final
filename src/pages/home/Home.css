@@ -6,20 +6,20 @@
     height: 100vh;
 }
 
-
 button {
     width: 20%;
-    margin: 10px 0;
+    margin: 15px 15px 15px 0;
     padding: 15px;
     font-size: 1rem;
     cursor: pointer;
-    border: none;
+    border: 0;
     border-radius: 10px;
-    background-color: #336637;
+    background-color: #218ee7;
+    box-shadow: #064352 0px 10px 0px 0px;
     color: #ffffff;
-    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #a31a43;
+    background-color: #1ebbe2;
+    box-shadow: #04657e;
 }

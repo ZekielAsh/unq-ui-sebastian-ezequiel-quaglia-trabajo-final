@@ -1,0 +1,40 @@
+.results-container {
+    height: 100vh; 
+    justify-content: center;
+    flex-direction: column;
+}
+.correct {
+  font-size: 30px;
+  color: #1da53f;
+  text-align: right;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 490px;
+  right: 40px;
+}
+  .results {
+    font-size: 60px;
+    color: #d42a0c;
+    text-align: left;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 470px; 
+    left: 40px;
+  }
+  .buttonTryAgain {
+    padding: 20px 80px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 40px;
+    background-color: #4100bb;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    box-shadow: #2a0177 0px 10px 0px 0px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .buttonTryAgain:hover {
+    background-color: #681fee;
+    box-shadow: #2f047e 0px 7px 0px 0px;
+  } 
